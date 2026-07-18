@@ -10,13 +10,13 @@
   "identifier": "https://doi.org/10.7910/DVN/XXXXX",
   "author": {
     "@type": "Person",
-    "@id": "https://orcid.org/0000-0000-0000-0000",
+    "@id": "https://orcid.org/0000-0003-1462-9064",
     "givenName": "Keyvan",
     "familyName": "Jahanfar"
   },
   "maintainer": {
     "@type": "Person",
-    "@id": "https://orcid.org/0000-0000-0000-0000",
+    "@id": "https://orcid.org/0000-0003-1462-9064",
     "givenName": "Keyvan",
     "familyName": "Jahanfar"
   },
@@ -25,7 +25,7 @@
   ],
   "applicationCategory": "Scientific software",
   "developmentStatus": "active",
-  "issueTracker": "https://github.com/USERNAME/REPOSITORY/issues",
+  "issueTracker": "https://github.com/keyvanjahanfar/FIRIA/issues",
   "relatedLink": [
     "https://doi.org/DOI-OF-IN-SILICO-DATASET"
   ],
