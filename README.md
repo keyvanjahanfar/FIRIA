@@ -1,5 +1,4 @@
 <img width="2666" height="1332" alt="light back groundtext 1" src="https://github.com/user-attachments/assets/35280f8f-70f6-485e-a674-84fadffd8a86" />
-
 # FIRIA-SMSA
 
 **FIRIA Signal Modeling and Statistical Analysis Software**
@@ -38,17 +37,32 @@ tasks that rename, overwrite, or delete files.
 
 ```text
 FIRIA-SMSA/
-├── Codes/
-│   ├── GUI.py
-│   ├── Parameters.config
-│   ├── Automatic Processes/
-│   ├── Single Tasks/
-│   ├── Background/
-│   ├── Documents/
-│   └── Settings/
+├── Automatic Processes/
+│   ├── Auto_Process_Python_Scripts_Run.py
+│   └── Auto_Process_Treshold_Finder.py
+├── Background/
+├── Documents/
 ├── Files/
+├── Settings/
+├── Single Tasks/
+│   ├── Delete_Contents.py
+│   ├── File_Extraction.py
+│   ├── Files_Rename_add_Scripts.py
+│   ├── Files_Rename_Subtract_Scripts.py
+│   ├── FIRIA_Signal_Generator_(Probability).py
+│   ├── Lines_Cut.py
+│   ├── Lines_Replacement.py
+│   ├── Matrix_Image_Generator.py
+│   ├── Mixed_Signal_Generator.py
+│   ├── Normalized_Intensity_RMSD_Matrix_Generator.py
+│   ├── Orginal_Intensity_RMSD_Matrix_Generator.py
+│   ├── RMSD_Matrix_Average_Calculator.py
+│   ├── Threshold_Finder.py
+│   └── TXT_to_CSV_Convertor.py
 ├── CHANGELOG.md
 ├── CITATION.cff
+├── GUI.py
+├── Parameters.config
 ├── codemeta.json
 └── README.md
 ```
@@ -96,7 +110,7 @@ python -m pip install numpy pandas matplotlib pillow
 Start the GUI from the repository root:
 
 ```bash
-python Codes/GUI.py
+python GUI.py
 ```
 
 In the GUI:
@@ -111,21 +125,23 @@ An individual script may also be run directly. Quote paths that contain spaces.
 For example:
 
 ```bash
-python "Codes/Single Tasks/Mixed_Signal_Generator.py"
+python "Single Tasks/Mixed_Signal_Generator.py"
 ```
 
 ## Portable path handling
 
-The location of the `Codes` directory is determined automatically from the
-location of each Python file. The source code therefore does not need to be
-edited when the repository is copied to another folder or computer.
+The location of the project root is determined automatically from each Python
+file. `GUI.py` uses its own directory as the project root, while scripts inside
+`Single Tasks` and `Automatic Processes` use their parent directory. The source
+code therefore does not need to be edited when the repository is copied to
+another folder or computer.
 
-Default data paths in `Codes/Parameters.config` are relative to the `Codes`
-directory. For example:
+Default data paths in `Parameters.config` are relative to the project root. For
+example:
 
 ```ini
-input_folder = ../Files/Mixed Signal Input
-output_folder = ../Files/Mixed Signal Output
+input_folder = Files/Mixed Signal Input
+output_folder = Files/Mixed Signal Output
 ```
 
 You may replace a relative value with an absolute path by using the GUI's
@@ -133,14 +149,13 @@ You may replace a relative value with an absolute path by using the GUI's
 native operating-system paths can be used on the operating system that owns the
 path.
 
-Git does not retain empty directories. If the empty directories under `Files`
-are absent after cloning the repository, create the required input/output
-directories or select existing directories through the GUI before running a
-task.
+The otherwise empty `Documents`, `Settings`, and data directories contain
+`.gitkeep` placeholder files so that Git retains the directory layout. These
+placeholder files do not affect the software and may remain in the folders.
 
 ## Configuration
 
-Task parameters are stored in `Codes/Parameters.config`. Each section has the
+Task parameters are stored in `Parameters.config`. Each section has the
 same name as its corresponding Python script. The automatic threshold workflow
 updates some of these values while it runs, so retain a copy of the original
 configuration when exact parameter provenance is required.
@@ -238,7 +253,6 @@ where necessary, revised by the human developer(s). The human author(s)
 retain full responsibility for the scientific design, implementation,
 testing, interpretation, and released source code. AI tools are not
 considered authors or contributors to this software.
-
 
 ## Citation
 
