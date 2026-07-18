@@ -261,6 +261,8 @@ Citation metadata is provided in `CITATION.cff` and `codemeta.json`. Replace all
 placeholder author, ORCID, repository, and DOI values with the final metadata
 before creating an archived release or DOI.
 
+[![](<https://img.shields.io/badge/DOI-10.7910/DVN/7UMLGM-brightgreen>)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7UMLGM)
+
 ## Changelog
 
 Release notes are maintained in `CHANGELOG.md`.
