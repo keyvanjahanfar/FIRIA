@@ -14,7 +14,6 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Initial public release of FIRIA-SMSA.
 - Signal modeling functionality for FIRIA profiles.
 - Statistical analysis tools.
-- Example input files and analysis workflow.
 - Installation and usage documentation.
 
 [Unreleased]: https://github.com/keyvanjahanfar/FIRIA/compare/v0.1.0-alpha...HEAD
