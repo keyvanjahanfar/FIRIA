@@ -151,7 +151,7 @@ native operating-system paths can be used on the operating system that owns the
 path.
 
 The otherwise empty `Documents`, `Settings`, and data directories contain
-`.gitkeep` placeholder files so that Git retains the directory layout. These
+`gitkeep.gitkeep` placeholder files so that Git retains the directory layout. These
 placeholder files do not affect the software and may remain in the folders.
 
 ## Configuration
