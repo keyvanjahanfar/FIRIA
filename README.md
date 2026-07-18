@@ -257,9 +257,8 @@ considered authors or contributors to this software.
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff` and `codemeta.json`. Replace all
-placeholder author, ORCID, repository, and DOI values with the final metadata
-before creating an archived release or DOI.
+Citation metadata is provided in `CITATION.cff` and `codemeta.json`.
+Please use the citation information associated with the archived software release.
 
 [![](<https://img.shields.io/badge/DOI-10.7910/DVN/7UMLGM-brightgreen>)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7UMLGM)
 
