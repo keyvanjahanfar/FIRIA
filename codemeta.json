@@ -1,0 +1,38 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "FIRIA-SMSA: A Toolkit for Signal Modeling and Statistical Analysis of FIRIA Profiles",
+  "alternateName": "FIRIA-SMSA",
+  "description": "A research software toolkit for signal modeling and statistical analysis of FIRIA profiles.",
+  "version": "0.1.0-alpha",
+  "datePublished": "2026-07-18",
+  "codeRepository": "https://github.com/USERNAME/REPOSITORY",
+  "identifier": "https://doi.org/10.7910/DVN/XXXXX",
+  "author": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0000-0000-0000",
+    "givenName": "Keyvan",
+    "familyName": "Jahanfar"
+  },
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0000-0000-0000",
+    "givenName": "Keyvan",
+    "familyName": "Jahanfar"
+  },
+  "programmingLanguage": [
+    "Python"
+  ],
+  "applicationCategory": "Scientific software",
+  "developmentStatus": "active",
+  "issueTracker": "https://github.com/USERNAME/REPOSITORY/issues",
+  "relatedLink": [
+    "https://doi.org/DOI-OF-IN-SILICO-DATASET"
+  ],
+  "keywords": [
+    "FIRIA",
+    "signal modeling",
+    "statistical analysis",
+    "research software"
+  ]
+}

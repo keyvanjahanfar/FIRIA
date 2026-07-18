@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use FIRIA-SMSA in your research, please cite the software as below."
+
+title: "FIRIA-SMSA: A Toolkit for Signal Modeling and Statistical Analysis of FIRIA Profiles"
+
+type: software
+
+authors:
+  - family-names: "YOUR_FAMILY_NAME"
+    given-names: "YOUR_GIVEN_NAME"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+
+version: "0.1.0-alpha"
+date-released: "2026-07-18"
+
+doi: "10.7910/DVN/XXXXX"
+
+license: "UP"
+
+repository-code: "https://github.com/USERNAME/REPOSITORY"
