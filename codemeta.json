@@ -6,7 +6,7 @@
   "description": "A research software toolkit for signal modeling and statistical analysis of FIRIA profiles.",
   "version": "0.1.0-alpha",
   "datePublished": "2026-07-18",
-  "codeRepository": "https://github.com/USERNAME/REPOSITORY",
+  "codeRepository": "https://github.com/keyvanjahanfar/FIRIA",
   "identifier": "https://doi.org/10.7910/DVN/7UMLGM",
   "author": {
     "@type": "Person",
